@@ -1,0 +1,31 @@
+.sign-up-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  form {
+    width: 100%; /* Make the form take the full width of its container */
+    max-width: 500px; /* Set a max-width for the form on larger screens */
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); 
+    border-radius: 8px; 
+    background: white; 
+  }
+  
+  mat-form-field {
+    width: 100%;
+  }
+  
+  button[type="submit"] {
+    margin-top: 20px; 
+  }
+  
+  .existing-user-text {
+    text-align: center;
+    margin-bottom: 20px; 
+  }
+  

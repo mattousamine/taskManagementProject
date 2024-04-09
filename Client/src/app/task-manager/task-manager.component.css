@@ -1,0 +1,144 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .task-form-card, .tasks-list-card {
+    width: 100%;
+    max-width: 600px; 
+    margin-bottom: 20px;
+  }
+  
+  .full-width {
+    width: 100%;
+  }
+  
+  .actions {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .filters {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+  }
+  
+  mat-form-field {
+    width: calc(50% - 10px); 
+  }
+  
+  mat-table {
+    width: 100%;
+    overflow-x: auto;
+  }
+  
+  .actions-row {
+    margin-bottom: 16px;
+  }
+  
+  .task-form-card, .tasks-list-card {
+    margin-top: 16px;
+  }
+  
+  .form-row, .category-select-add {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px; 
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .task-form-card, .tasks-list-card {
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 20px;
+  }
+  
+  .full-width {
+    width: 100%;
+  }
+  
+  .actions {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .category-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .category-select, .new-category {
+    flex-basis: 48%; 
+  }
+  
+  .new-category {
+    display: flex;
+    gap: 8px;
+  }
+  
+  @media (max-width: 768px) {
+    .category-row {
+      flex-direction: column;
+    }
+  
+    .category-select, .new-category {
+      flex-basis: 100%;
+    }
+  }
+  
+  
+
+  
+  mat-form-field {
+    flex: 1; 
+  }
+  
+  /* Adjustments for smaller screens */
+  @media (max-width: 768px) {
+    .form-row, .category-select-add {
+      flex-direction: column;
+    }
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+  }
+  
+  .logout-button {
+    margin-left: auto; 
+  }
+  
+  .chart-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    width: 100%; 
+    height: 500px; 
+    margin: auto; 
+    padding: 20px;
+  }
+  @media (max-width: 768px) {
+    .chart-container {
+      height: 300px;
+    }
+  }
+    
+  
