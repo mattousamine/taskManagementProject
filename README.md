@@ -65,7 +65,7 @@ cd Client
 
 ```
 npm install --legacy-peer-deps
-npm ci
+npm ci --legacy-peer-deps
 ```
 
 3. If the API address changes, update the apiUrl variable in `environment.ts` and `environment.prod.ts` under the `Client/src/environments` folder.
