@@ -64,7 +64,7 @@ cd Client
 2. Install NPM dependencies:
 
 ```
-npm install
+npm install --legacy-peer-deps
 npm ci
 ```
 
