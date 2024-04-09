@@ -41,13 +41,13 @@ You can manually import it or use a software like workbench.
 cd Server
 ```
 
-2. Update the connection string in `appsettings.json` with your SQL Server credentials:
+2. Update the connection string in `appsettings.json`(file under Task.API) with your SQL Server credentials:
 
 ```json
 "MyConn": "Server=127.0.0.1;Port=3306;Database=taskdb;Uid=[your username];Pwd=[your password];"
 ```
 
-3. Open the `.sln` solution with Visual Studio Community and run the solution.
+3. Open the `.sln` solution with Visual Studio Community, select Task.API as default project and run the solution.
 
 4. You can also use Postman collections to test the API.
 
